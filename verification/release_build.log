@@ -1,0 +1,256 @@
+✔ [3019/3035] Built RefinedBMV.SchurTriangulation (37s)
+✔ [3123/3178] Built RefinedBMV.Core (161s)
+✔ [3124/3178] Built RefinedBMV.GramPositivity (35s)
+✔ [3125/3178] Built RefinedBMV.Certificates (35s)
+✔ [3126/3178] Built RefinedBMV.LowDegree (14s)
+✔ [3127/3178] Built RefinedBMV.WordAverage (25s)
+✔ [3128/3178] Built RefinedBMV.MatrixSquares (38s)
+✔ [3129/3178] Built RefinedBMV.CubicScalar (15s)
+✔ [3130/3178] Built RefinedBMV.FourthMoment (19s)
+✔ [3131/3178] Built RefinedBMV.Jordan44 (29s)
+✔ [3132/3178] Built RefinedBMV.Weighted54 (32s)
+✔ [3133/3178] Built RefinedBMV.EvenDisk (45s)
+✔ [3134/3178] Built RefinedBMV.Equality54 (12s)
+✔ [3135/3178] Built RefinedBMV.JordanSpectrum44 (15s)
+✔ [3136/3178] Built RefinedBMV.PaperMain (10s)
+✔ [3137/3178] Built RefinedBMV.WordCounting (12s)
+✔ [3138/3178] Built RefinedBMV.WordStructure (10s)
+✔ [3139/3178] Built RefinedBMV.OneLetter (11s)
+✔ [3140/3178] Built RefinedBMV.Exchange (11s)
+✔ [3141/3178] Built RefinedBMV.Reality (11s)
+✔ [3142/3178] Built RefinedBMV.TwoLetterWords (12s)
+✔ [3143/3178] Built RefinedBMV.TwoLetterScalar (12s)
+✔ [3144/3178] Built RefinedBMV.Commuting (13s)
+✔ [3145/3178] Built RefinedBMV.TwoLetterMatrix (12s)
+✔ [3146/3178] Built RefinedBMV.TwoLetterBoundary (11s)
+✔ [3147/3178] Built RefinedBMV.CubicHolomorphic (17s)
+✔ [3148/3178] Built RefinedBMV.CubicCenter (17s)
+✔ [3149/3178] Built RefinedBMV.TraceHolder (22s)
+✔ [3150/3178] Built RefinedBMV.CubicStrip (18s)
+✔ [3151/3178] Built RefinedBMV.CubicInterpolation (20s)
+✔ [3152/3178] Built RefinedBMV.StripDiskMap (20s)
+✔ [3153/3178] Built RefinedBMV.QuarticInterpolation (19s)
+✔ [3154/3178] Built RefinedBMV.StripDiskPoint (21s)
+✔ [3155/3178] Built RefinedBMV.MomentInterpolation (16s)
+✔ [3156/3178] Built RefinedBMV.CubicAnalytic (17s)
+✔ [3157/3178] Built RefinedBMV.CubicMatrix (19s)
+✔ [3158/3178] Built RefinedBMV.PolarTrace (17s)
+✔ [3159/3178] Built RefinedBMV.TraceHolderDyadic (19s)
+✔ [3160/3178] Built RefinedBMV.CubicALTPath (19s)
+✔ [3161/3178] Built RefinedBMV.CubicALT (23s)
+✔ [3162/3178] Built RefinedBMV.CubicQuantitative (20s)
+✔ [3163/3178] Built RefinedBMV.QuarticALTPath (20s)
+✔ [3164/3178] Built RefinedBMV.Strong43 (18s)
+✔ [3165/3178] Built RefinedBMV.Reversed45 (18s)
+✔ [3166/3178] Built RefinedBMV.TraceMoment (17s)
+✔ [3167/3178] Built RefinedBMV.ALTWeightedHolder (18s)
+✔ [3168/3178] Built RefinedBMV.ALTInterpolationPath (19s)
+✔ [3169/3178] Built RefinedBMV.ALTFamilies (21s)
+✔ [3170/3178] Built RefinedBMV.Reversed34 (21s)
+✔ [3171/3178] Built RefinedBMV.PowerStability (21s)
+✔ [3172/3178] Built RefinedBMV.SymmetricTrotter (17s)
+✔ [3173/3178] Built RefinedBMV.ExponentialBridge (18s)
+✔ [3174/3178] Built RefinedBMV.PaperResults (16s)
+✔ [3175/3178] Built RefinedBMV (16s)
+ℹ [3177/3178] Built Audit (16s)
+info: Audit.lean:3:0: 'RefinedBMV.mem_balancedWords' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:4:0: 'RefinedBMV.certificate33' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:5:0: 'RefinedBMV.certificate43' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:6:0: 'RefinedBMV.certificate44' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:7:0: 'RefinedBMV.certificate54' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:8:0: 'RefinedBMV.certificate44sos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:9:0: 'RefinedBMV.gram44Form_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:10:0: 'RefinedBMV.average_trace_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:11:0: 'RefinedBMV.identity33' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:12:0: 'RefinedBMV.identity43' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:13:0: 'RefinedBMV.identity44' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:14:0: 'RefinedBMV.identity54' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:15:0: 'RefinedBMV.p43_ge_W' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:16:0: 'RefinedBMV.p44_ge_jordan' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:17:0: 'RefinedBMV.p54_ge_U' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:18:0: 'RefinedBMV.fourth_moment_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:19:0: 'RefinedBMV.sandwich_fourth_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:20:0: 'Matrix.schur_triangulation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:21:0: 'RefinedBMV.hermitian_diagonal_fourth_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:22:0: 'RefinedBMV.jordan_ge_product44' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:23:0: 'RefinedBMV.paper_theorem_2_1_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:24:0: 'RefinedBMV.paper_theorem_2_2_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:25:0: 'RefinedBMV.paper_theorem_2_2_equality' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:26:0: 'RefinedBMV.normal_product_commutes' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:27:0: 'RefinedBMV.balancedWords_length' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:28:0: 'RefinedBMV.balancedWords_nodup' depends on axioms: [propext, Quot.sound]
+info: Audit.lean:29:0: 'RefinedBMV.complete_average_trace_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:30:0: 'RefinedBMV.alternating54_trace_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:31:0: 'RefinedBMV.product44_trace_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:32:0: 'RefinedBMV.p_letter_exchange' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:33:0: 'RefinedBMV.paper_proposition_3_2_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:34:0: 'RefinedBMV.two_letter_scalar_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:35:0: 'RefinedBMV.cubic_average_deficit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:36:0: 'RefinedBMV.cubic_joint_of_ratio_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:37:0: 'RefinedBMV.mobius_disk_left_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:38:0: 'RefinedBMV.paper_commuting_equalities' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:39:0: 'RefinedBMV.paperL_exchange' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:40:0: 'RefinedBMV.diagonal_trace_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:41:0: 'RefinedBMV.spectral_two_word_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:42:0: 'RefinedBMV.two_true_gap_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:43:0: 'RefinedBMV.paperT_two_spectral' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:44:0: 'RefinedBMV.two_letter_word_ge_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:45:0: 'RefinedBMV.paper_proposition_3_2_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:46:0: 'RefinedBMV.cubicStripTrace_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:47:0: 'RefinedBMV.cubicStripTrace_center_symmetry' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:48:0: 'RefinedBMV.complexPower_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:49:0: 'RefinedBMV.cubicStripTrace_midpoint_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:50:0: 'RefinedBMV.complexPower_imaginary_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:51:0: 'RefinedBMV.complexPower_star' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:52:0: 'RefinedBMV.complexPower_norm_realpart' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:53:0: 'RefinedBMV.cubicStripTrace_bounded_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:54:0: 'RefinedBMV.cubicStripTrace_boundary_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:55:0: 'RefinedBMV.commutator_second_moment_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:56:0: 'RefinedBMV.cubic_center_deficit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:57:0: 'RefinedBMV.cubic_center_le_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:58:0: 'RefinedBMV.cubic_center_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:59:0: 'RefinedBMV.cubic_center_trace_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:60:0: 'RefinedBMV.hsSquared_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:61:0: 'RefinedBMV.hsFourth_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:62:0: 'RefinedBMV.trace_cauchy_schwarz' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:63:0: 'RefinedBMV.hermitian_trace_cauchy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:64:0: 'RefinedBMV.hsSquared_product_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:65:0: 'RefinedBMV.trace_holder_442' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:66:0: 'RefinedBMV.hsFourth_right_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:67:0: 'RefinedBMV.hsSquared_right_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:68:0: 'RefinedBMV.cubic_midpoint_eq_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:69:0: 'RefinedBMV.cubic_quarter_hsFourth' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:70:0: 'RefinedBMV.cubic_half_hsSquared' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:71:0: 'RefinedBMV.cubicStripTrace_left_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:72:0: 'RefinedBMV.cubicStripTrace_sharp_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:73:0: 'RefinedBMV.even_disk_hasDerivAt_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:74:0: 'RefinedBMV.mobius_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:75:0: 'RefinedBMV.even_disk_mobius_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:76:0: 'RefinedBMV.even_disk_point_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:77:0: 'RefinedBMV.diskCayley_re_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:78:0: 'RefinedBMV.stripDiskInverse_differentiable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:79:0: 'RefinedBMV.stripDiskInverse_maps_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:80:0: 'RefinedBMV.stripDiskInverse_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:81:0: 'RefinedBMV.cubicDiskPoint_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:82:0: 'RefinedBMV.stripDiskInverse_cubic_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:83:0: 'RefinedBMV.stripDiskInverse_tan_right_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:84:0: 'RefinedBMV.cubicStripTrace_point_ratio_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:85:0: 'RefinedBMV.cubicStripTrace_joint_estimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:86:0: 'RefinedBMV.complexPower_nat_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:87:0: 'RefinedBMV.cubicStripTrace_cubic_specialization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:88:0: 'RefinedBMV.cubic_matrix_joint_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:89:0: 'RefinedBMV.sqrt_tendsto_of_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:90:0: 'RefinedBMV.cubic_matrix_joint_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:91:0: 'RefinedBMV.cubic_average_ge_joint_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:92:0: 'RefinedBMV.sqrt_cubic_eq_rpow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:93:0: 'RefinedBMV.paper_cubic_joint_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:94:0: 'RefinedBMV.paper_cubic_quantitative_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:95:0: 'RefinedBMV.product_nat_trace_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:96:0: 'RefinedBMV.product_nat_trace_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:97:0: 'RefinedBMV.invertible_polar' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:98:0: 'RefinedBMV.hsFourth_left_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:99:0: 'RefinedBMV.positive_unitary_trace_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:100:0: 'RefinedBMV.complexPower_unitary_of_re_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:101:0: 'RefinedBMV.cubicALTPath_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:102:0: 'RefinedBMV.cubicALTPath_left_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:103:0: 'RefinedBMV.hsFourth_three_halves' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:104:0: 'RefinedBMV.hsSquared_cube' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:105:0: 'RefinedBMV.cubicALTPath_right_fourth_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:106:0: 'RefinedBMV.cubic_interpolation_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:107:0: 'RefinedBMV.cubicALTPath_polar_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:108:0: 'RefinedBMV.cubicALTPath_bounded_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:109:0: 'RefinedBMV.hsFourth_hermitian_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:110:0: 'RefinedBMV.cubic_alt_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:111:0: 'RefinedBMV.cubic_alt_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:112:0: 'RefinedBMV.paperT33' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:113:0: 'RefinedBMV.paper_proposition_7_1_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:114:0: 'RefinedBMV.normalized_midpoint_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:115:0: 'RefinedBMV.cubic_margin_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:116:0: 'RefinedBMV.cubic_margin_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:117:0: 'RefinedBMV.paper_proposition_7_1_quantitative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:118:0: 'RefinedBMV.hsFourth_product_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:119:0: 'RefinedBMV.hsEighth_right_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:120:0: 'RefinedBMV.hsEighth_left_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:121:0: 'RefinedBMV.trace_holder_8842' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:122:0: 'RefinedBMV.quartic_interpolation_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:123:0: 'RefinedBMV.quarticALTPath_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:124:0: 'RefinedBMV.quarticALTPath_left_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:125:0: 'RefinedBMV.quarticALTPath_right_eighth_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:126:0: 'RefinedBMV.quarticALTPath_polar_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:127:0: 'RefinedBMV.quarticALTPath_bounded_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:128:0: 'RefinedBMV.quartic_alt_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:129:0: 'RefinedBMV.complexPower_real_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:130:0: 'RefinedBMV.positivePower_tendsto_of_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:131:0: 'RefinedBMV.reversed45_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:132:0: 'RefinedBMV.reversed45_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:133:0: 'RefinedBMV.paper_strong_4_5_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:134:0: 'RefinedBMV.third_moment_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:135:0: 'RefinedBMV.sandwich_third_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:136:0: 'RefinedBMV.weighted_third_sandwich_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:137:0: 'RefinedBMV.positivePower_one_third_cube' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:138:0: 'RefinedBMV.weighted_third_ge_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:139:0: 'RefinedBMV.paper_proposition_4_1_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:140:0: 'RefinedBMV.traceMoment_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:141:0: 'RefinedBMV.complexPower_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:142:0: 'RefinedBMV.traceMoment_complexPower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:143:0: 'RefinedBMV.traceMoment_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:144:0: 'RefinedBMV.hsSquared_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:145:0: 'RefinedBMV.hsFourth_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:146:0: 'RefinedBMV.hsEighth_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:147:0: 'RefinedBMV.traceMoment_star' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:148:0: 'RefinedBMV.traceMoment_right_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:149:0: 'RefinedBMV.traceMoment_left_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:150:0: 'RefinedBMV.traceMoment_polar' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:151:0: 'RefinedBMV.moment_interpolation_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:152:0: 'RefinedBMV.dual_moment_interpolation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:153:0: 'RefinedBMV.complexPower_isUnit' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:154:0: 'RefinedBMV.hsSquared_left_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:155:0: 'RefinedBMV.altDualPath_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:156:0: 'RefinedBMV.altDualPath_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:157:0: 'RefinedBMV.altDualPath_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:158:0: 'RefinedBMV.altDualPath_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:159:0: 'RefinedBMV.alt_weighted_holder' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:160:0: 'RefinedBMV.altTracePath_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:161:0: 'RefinedBMV.altTracePath_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:162:0: 'RefinedBMV.altTracePath_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:163:0: 'RefinedBMV.altTracePath_polar_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:164:0: 'RefinedBMV.altTracePath_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:165:0: 'RefinedBMV.traceMoment_hermitian_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:166:0: 'RefinedBMV.alt_natural_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:167:0: 'RefinedBMV.alt_natural_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:168:0: 'RefinedBMV.alt_integer_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:169:0: 'RefinedBMV.paperT34_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:170:0: 'RefinedBMV.reversed34_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:171:0: 'RefinedBMV.reversed34_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:172:0: 'RefinedBMV.paper_strong_3_4_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:173:0: 'RefinedBMV.alt_rational_sandwich_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:174:0: 'RefinedBMV.alt_integer_sandwich_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:175:0: 'RefinedBMV.positivePower_root_nat' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:176:0: 'RefinedBMV.reTrace_sandwich_of_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:177:0: 'RefinedBMV.alt_trotter_approximants_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:178:0: 'RefinedBMV.norm_pow_sub_le_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:179:0: 'RefinedBMV.one_add_div_pow_le_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:180:0: 'RefinedBMV.first_order_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:181:0: 'RefinedBMV.reciprocal_power_stability' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:182:0: 'RefinedBMV.trotterStep_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:183:0: 'RefinedBMV.trotterStep_hasDerivAt_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:184:0: 'RefinedBMV.reciprocal_exp_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:185:0: 'RefinedBMV.symmetric_trotter_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:186:0: 'RefinedBMV.symmetric_trotter_tendsto_multiple' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:187:0: 'RefinedBMV.complexPower_real_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:188:0: 'RefinedBMV.positivePower_eq_real_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:189:0: 'RefinedBMV.cfcTrotterStep_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:190:0: 'RefinedBMV.cfc_trotter_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:191:0: 'RefinedBMV.exponential_bridge_sandwich' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:192:0: 'RefinedBMV.paper_lemma_3_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:193:0: 'RefinedBMV.paperL_matrix_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:194:0: 'RefinedBMV.paperL_trace_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:195:0: 'RefinedBMV.paperL_trace_eq_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:196:0: 'RefinedBMV.paperL_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:197:0: 'RefinedBMV.paper_corollary_2_3_finite_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:198:0: 'RefinedBMV.paper_boundary_exponential_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:199:0: 'RefinedBMV.paper_corollary_2_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:200:0: 'RefinedBMV.paper_exponential_equality54' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:201:0: 'RefinedBMV.paper_theorem_2_1_exponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:202:0: 'RefinedBMV.paper_theorem_2_2_exponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3178 jobs).

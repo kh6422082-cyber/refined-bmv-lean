@@ -51,6 +51,8 @@ This is a formalization of the main conclusions and their necessary dependencies
 
 The `verification` directory contains the original local verification records. The release verification script generates a fresh release-project build/audit record. The original `build_report.json` distinguishes actual recompilation from matching-hash reuse. `release_build_report.json` records whether this repository's own compiled artifacts were absent before the release build; cached pinned mathlib dependency artifacts may still be used. Platform-specific olean hashes are provenance data, not portable source identifiers.
 
+The release project was also rebuilt locally with all 55 project artifacts initially absent, and its 200 axiom audits passed. The pinned mathlib dependency artifacts were cached. See [the release build report](verification/release_build_report.json) and [its raw audit output](verification/release_axioms.log). The same source snapshot `a4c08aff1e8e9f86be9f6abfaf3a186e02528dfc` passed [GitHub's Ubuntu build and audit](https://github.com/kh6422082-cyber/refined-bmv-lean/actions/runs/37979047741); its summary is saved in [github_ci.json](verification/github_ci.json).
+
 GitHub Actions runs the pinned project build and axiom audit on pushes and pull requests. Inspect the run for the exact commit being cited; the workflow's presence is not itself a statement that a run has passed.
 
 ## Citation and license

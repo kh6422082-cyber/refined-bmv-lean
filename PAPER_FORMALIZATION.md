@@ -107,3 +107,5 @@
 - [公理依赖输出](verification/axioms.log)。
 
 `all_passed` 表示交付源码全部通过编译；必要主结论与严格全文覆盖分别由上面两个状态字段记录。交付源码不使用 `sorry`、`admit`、自设目标公理或 `native_decide`。
+
+公开发布版本补充核验：55 个项目源码在自身 olean 全部缺失时完成标准 Lake 构建，200 条公理审计通过；固定 mathlib 依赖使用缓存。相同代码提交也通过 GitHub Ubuntu 自动核验。见 [发布构建记录](verification/release_build_report.json) 与 [GitHub CI 记录](verification/github_ci.json)。

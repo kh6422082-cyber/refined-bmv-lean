@@ -1,0 +1,293 @@
+{
+  "all_passed": true,
+  "started_utc": "2026-10-09T19:04:10.419311+00:00",
+  "finished_utc": "2026-10-09T19:23:28.177374+00:00",
+  "lean_toolchain": "leanprover/lean4:v4.34.0",
+  "mathlib_revision": "5ed2965256430c3649e86755f9576b54eca72435",
+  "fresh_project_artifacts_before_build": true,
+  "dependency_cache_note": "Pinned mathlib dependency artifacts may be cached; this field concerns only delivered project sources.",
+  "source_files": 55,
+  "axiom_audits": 200,
+  "axiom_allowlist": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "modules": [
+    {
+      "source": "Audit.lean",
+      "source_sha256": "3d20d2984630dbd2667513b213903652105bee31eeb41c9925cda2ef28ec2d79",
+      "olean_sha256": "192f81fcf3caaa5ff4c1075c8f6242c1ea0274915ebf00609035470a9a0a83ad"
+    },
+    {
+      "source": "RefinedBMV/ALTFamilies.lean",
+      "source_sha256": "3bc1df9915df486a2afb25ad8193a016d8588062f845c5ee0470fb96ab28db8a",
+      "olean_sha256": "8fc10c074c18242e822eb3e3c28e01cbcb82906c83f5432929d3ddfc7e15ac75"
+    },
+    {
+      "source": "RefinedBMV/ALTInterpolationPath.lean",
+      "source_sha256": "b609e6d7e94eafc5734f3fdf9c1afc9b72eb47802fa70ced66a780c3e44557ab",
+      "olean_sha256": "773ce1784e5a0b552d126875918ef2891d03afdfb3089bcd637195a78bc84f54"
+    },
+    {
+      "source": "RefinedBMV/ALTWeightedHolder.lean",
+      "source_sha256": "34747394e6e96844eba34110628a36bbb2d6fbe165a451c3af0fc9c3bf7603b0",
+      "olean_sha256": "bfd39fd0f3734e21a6814d65ef2c4a98ff6c40d05910b23f05957ecb7dc0df2b"
+    },
+    {
+      "source": "RefinedBMV/Certificates.lean",
+      "source_sha256": "a68eec967338637fe7b7d81d1fe26d0eb4896a873d1b1257455df894c69f0c9b",
+      "olean_sha256": "cb218e4c01217459fd7cc5a70e6c0e805abd7eae64b73c5eacfb33f87f6ce313"
+    },
+    {
+      "source": "RefinedBMV/Commuting.lean",
+      "source_sha256": "1deb903649b4028897318357e2e1a81e16aa7ee832739d95cfdd2a20d2cf4b7d",
+      "olean_sha256": "6a3ae009d629c49b265f0f3b760e2ea75a2146053a882f41dba94b2242f1303d"
+    },
+    {
+      "source": "RefinedBMV/Core.lean",
+      "source_sha256": "7d35e545451fb8aacfcfc9932aeccb3eec38c5a536aad91e6814c39850098b46",
+      "olean_sha256": "0c6e3e098c2b933a74ee8b3f4033401ed920a5966e507c172ca0625123dc820b"
+    },
+    {
+      "source": "RefinedBMV/CubicALT.lean",
+      "source_sha256": "cc2a84f683f8c62c3b7790e293d135df39479e256af8c21ef875518010fd42ba",
+      "olean_sha256": "df472b9e10b5e1d388f8c9561414213d84cdfe53ba98a3cccc1c23e2e1be6460"
+    },
+    {
+      "source": "RefinedBMV/CubicALTPath.lean",
+      "source_sha256": "d800f51018743ccae4b71c1783e89138024ed8ac4ef34a716018e999058e6822",
+      "olean_sha256": "fb6bebfda1de66e67c21fdab81d39735aa789fed537b78f846af58e3f0cfaa25"
+    },
+    {
+      "source": "RefinedBMV/CubicAnalytic.lean",
+      "source_sha256": "2bcd669cbfd792c14868d94c2f47336e6d4e09b9154f898c4160a8e977ff6d3a",
+      "olean_sha256": "de879f5c896bec0aa325e62fc7f775a85ad6418d8f1ca768d00fe35b7ca50b82"
+    },
+    {
+      "source": "RefinedBMV/CubicCenter.lean",
+      "source_sha256": "98e8096e8595e8095bc520ba123dfa58ecf2e88864a9ae9ff8844383c154c334",
+      "olean_sha256": "65ac5615f2ff030f4182d7fb73b846076f6205705fe59776dfa6e48429ecd946"
+    },
+    {
+      "source": "RefinedBMV/CubicHolomorphic.lean",
+      "source_sha256": "08d2822796d89d359e6c0b4a532bc18d230c65a6647ff90dd40c6158ea545e62",
+      "olean_sha256": "9be2fa42dac97198e2cf94e26624d372e5ebebfae68bee25ce93093055aeb9fc"
+    },
+    {
+      "source": "RefinedBMV/CubicInterpolation.lean",
+      "source_sha256": "d575362a1dc9b67bacfca39fd99fc3a4bd94a1de10f2bfffc16035e99f89396e",
+      "olean_sha256": "5ca8c5b828cdbc1fc2b20c07b104da80c08d0305c42b459b3e609e7b3c5525c7"
+    },
+    {
+      "source": "RefinedBMV/CubicMatrix.lean",
+      "source_sha256": "bf713811a120efdd4929ee54811cdf954ff5d0cfa7f8df930317dc0d1be01681",
+      "olean_sha256": "90e57ec7cf7e62b63bb54b51c8c88388f9c37dbb7709a8a1dce3644853c0291b"
+    },
+    {
+      "source": "RefinedBMV/CubicQuantitative.lean",
+      "source_sha256": "2f7813f775b6aca74a972102926af31716a1379ed198f2a50cd1fa6218b7606f",
+      "olean_sha256": "5e7ebfbb7b52775c61ca88080bdf170d8b461a733ad80f496b6a07400c05cb9f"
+    },
+    {
+      "source": "RefinedBMV/CubicScalar.lean",
+      "source_sha256": "dc29d2b77d9d9e2ba859fb3d319b0d2c606250241bd3c70dbdfa3c46e74572df",
+      "olean_sha256": "9950b11104b5ef44fe91ff5f540814c9200cd7a32182cc05dbb75e6232f28cfd"
+    },
+    {
+      "source": "RefinedBMV/CubicStrip.lean",
+      "source_sha256": "67f5f8fdb2ce492cd0a3e3de4d4895e68ac8de7fd2b5a69aff2e961239795518",
+      "olean_sha256": "2385f06b1f8daebdd3ec42656d30e9b6973d2d3c35bb5c475d61d3c87773ac0b"
+    },
+    {
+      "source": "RefinedBMV/Equality54.lean",
+      "source_sha256": "345600059f243cd32081f4fbaf33e053ef09d4b171fc514390f7b9a22da88863",
+      "olean_sha256": "5953266d0c23513642540131b7ec839c23d70b0d973e7757d0aa9f6305fe01a6"
+    },
+    {
+      "source": "RefinedBMV/EvenDisk.lean",
+      "source_sha256": "f7a093f049999ac6e05a0b45f35e0807920127d2f0c41d5739be3d12ad96259d",
+      "olean_sha256": "63b1f3640518e27fe40a6e40b9ff87debe2a082c29ed469b412e46d5e197ccb3"
+    },
+    {
+      "source": "RefinedBMV/Exchange.lean",
+      "source_sha256": "1208001c14e14735cbc72384f7aec83459d77dfc3be93a4ee8d614ec43dbff43",
+      "olean_sha256": "441552b6237bb12a98fcd7d99bf281eb211f0bba3e5d127f931d5b821f66421c"
+    },
+    {
+      "source": "RefinedBMV/ExponentialBridge.lean",
+      "source_sha256": "ad414c83fa1d0c754314dc4308b10ae26c0ee81030bcabbadce0968645bc17e1",
+      "olean_sha256": "0d293eb3c1fe7e92bde307545ada074905c508fc4173eb0a4154c48e29a2003c"
+    },
+    {
+      "source": "RefinedBMV/FourthMoment.lean",
+      "source_sha256": "31dcaa06cfdd0574b9db219c9d53fbf89145b3342fb344f6b1d3a3d1db055f7e",
+      "olean_sha256": "f88440427927bee771d6a331f6f85237c25b6c9b8914793fa7c842df9ebce0f9"
+    },
+    {
+      "source": "RefinedBMV/GramPositivity.lean",
+      "source_sha256": "4ab59070c1277195aa4abd69c7d46a01a923b94bebddce50396b9df1ddf99f72",
+      "olean_sha256": "e6bbb7446e53a2f9fcb61e3858ca6697830f6d895a4e764f0d26a8a89672d46f"
+    },
+    {
+      "source": "RefinedBMV/Jordan44.lean",
+      "source_sha256": "a47bc4e0b11ad9b0cab8672eb4c67126422c0455de4ff5356a63d4dd6fd6339e",
+      "olean_sha256": "d12a52ba703947d59b5e7aac0dcb4124221828f8cfecc3d4051c74dbf6022d9f"
+    },
+    {
+      "source": "RefinedBMV/JordanSpectrum44.lean",
+      "source_sha256": "46beedea5d753cf9120b31df563927f2041de11ed0ccc366000c94e61111a14c",
+      "olean_sha256": "d4a7cd5898f237097f0e3763f05aa7b37392acf3d6f21b5f91e19db6dfb85d87"
+    },
+    {
+      "source": "RefinedBMV/LowDegree.lean",
+      "source_sha256": "cb80589db13fd8c2469e0c38432a99bda5c38ca9a639f34e52f6a76f3688bb38",
+      "olean_sha256": "8cf393cd039c6f97ccab0bc796abb59b8f6bb3fda557201bc7c0f90406664cb8"
+    },
+    {
+      "source": "RefinedBMV/MatrixSquares.lean",
+      "source_sha256": "88127005648641137e4a0cc62f19a152273ef41829ef01d6c3e71cc7c1ddefc1",
+      "olean_sha256": "e930df7ae514d950e8dc4d5bde3db8da09e8f7bcf059262ac1d57e60c46cf253"
+    },
+    {
+      "source": "RefinedBMV/MomentInterpolation.lean",
+      "source_sha256": "99d9867363a4080b7c3b470de27aa65a7a260ed973077d361732d78da677a25f",
+      "olean_sha256": "c31ed0f74f336ad9690ea70dcf8d572ea5723bcd5545e993180555434977ea3f"
+    },
+    {
+      "source": "RefinedBMV/OneLetter.lean",
+      "source_sha256": "65de7070370184c7f14b506389ddb975cec5a92e64cc13ff316ee03db9258952",
+      "olean_sha256": "f22bb01c5b5cd5124c219de0d3918ab8e6ed5fc11ccc1c49b9e48d6154282e30"
+    },
+    {
+      "source": "RefinedBMV/PaperMain.lean",
+      "source_sha256": "3495d017699406793fb024f9d86111dbb553a48fa4c965d0f26d09cebd041d6a",
+      "olean_sha256": "6882b50517bf3a5997f8f0799caafaa75a09fe65dfa12cd92e3e9c5e19c9774d"
+    },
+    {
+      "source": "RefinedBMV/PaperResults.lean",
+      "source_sha256": "f289f75f58caa2f5603f45190b295093a1cf079f598ba2f5424d1e0befa401fc",
+      "olean_sha256": "5ec7c94a7478672de38b62af534432de2784d00c805b29b584a5a5e30d2ce3ac"
+    },
+    {
+      "source": "RefinedBMV/PolarTrace.lean",
+      "source_sha256": "3985ec990e6800271df5db061b7852ffb2e5d07df8d375cafb820ec7a08dbf0b",
+      "olean_sha256": "bb9e0fded818fb4bca2c380f8ad5a77da033d560d27b3c53fd020187357c6849"
+    },
+    {
+      "source": "RefinedBMV/PowerStability.lean",
+      "source_sha256": "278d3667a9c76180847d0fff9c42a4aff9f57712f7b10da1ff4ef27dd79fb3a1",
+      "olean_sha256": "64850ef83a67b754d72da11a15d4cd59c430cd0bec69ad520a293e1b5b1e596b"
+    },
+    {
+      "source": "RefinedBMV/QuarticALTPath.lean",
+      "source_sha256": "dd2d5eff1aa500bbd12032fa24a1cc23eb1c0dd31c7cdb3a7c6a5a30e6c51008",
+      "olean_sha256": "8c01dac6ddd7c00c670cb49cd797a873883f5df04bf57eaec6d534b7122425a1"
+    },
+    {
+      "source": "RefinedBMV/QuarticInterpolation.lean",
+      "source_sha256": "83553a45a881882eacd343fb5b97701d9ade86f77cf68c4602947826cfc99583",
+      "olean_sha256": "265661b888d74c7f2496db53b3dea0daad5d7199d6cfe24ae60ea42d8eb81038"
+    },
+    {
+      "source": "RefinedBMV/Reality.lean",
+      "source_sha256": "bb27190fb1cdbcfc0a15ab5af60bc5672e08f8a5d6302663c552da06cc01596c",
+      "olean_sha256": "aad96238ba04313d681377f6ba5a060cfa96eb80ea83f29ccb438ccf7cd8d213"
+    },
+    {
+      "source": "RefinedBMV/Reversed34.lean",
+      "source_sha256": "746db6b9ffcbe0bd811663ce4cd708f507110fae83f4652f3811691ee6ea9501",
+      "olean_sha256": "c3b6c0ed45428a2af82147b26e7f238b943b6cafc1935925e2c8a53949bfba75"
+    },
+    {
+      "source": "RefinedBMV/Reversed45.lean",
+      "source_sha256": "9581492ad4071991ae1357904c946b89695e26eddba1dc7880214bdf4de77807",
+      "olean_sha256": "6abbcfc0198d283836cdbebece32f7f0ac4e5313aaa2d20620146e07b32bfff3"
+    },
+    {
+      "source": "RefinedBMV/SchurTriangulation.lean",
+      "source_sha256": "753367358bbf678ebb2b876b16f456d449efc7c02496e98f69f1529ef81cbd39",
+      "olean_sha256": "13a40fdf7677bd3eb8489d29d62a1a5ccfa5c0a8d024e87226dabf5460ed9aab"
+    },
+    {
+      "source": "RefinedBMV/StripDiskMap.lean",
+      "source_sha256": "de00d183ace04e67eb513bdb26f4831cfceb1634e405a81ddb7b43a49f27163c",
+      "olean_sha256": "fc7b85e1928da6d0c7e3f5a08cada0d0e34f4fca0fa212950397c22cd8b36de3"
+    },
+    {
+      "source": "RefinedBMV/StripDiskPoint.lean",
+      "source_sha256": "a2f6b672b03de3f50d53e3aaed942e88809160e0cd9b1cac6e7c0fe998068bfe",
+      "olean_sha256": "ee2afd600aee5acf3c931ed2e8b3e6dacc06b274f95368431cf49ff07a3d5a84"
+    },
+    {
+      "source": "RefinedBMV/Strong43.lean",
+      "source_sha256": "6cba031425ffab051901b8d16a2723750051766a3315a21d71f52e444ce5df6c",
+      "olean_sha256": "6948e2e62e821b87c456716b95e3ffa99c68215412d2bd4cba179e4d3e9d9fd7"
+    },
+    {
+      "source": "RefinedBMV/SymmetricTrotter.lean",
+      "source_sha256": "e3c5ba16df5fde753ae1ce9ab6068ae73ece9fdcf7450994bae99a1960288f9b",
+      "olean_sha256": "684ab8539b633931b81a52e5d16a9295fa366c6acd2edd845210f04439013523"
+    },
+    {
+      "source": "RefinedBMV/TraceHolder.lean",
+      "source_sha256": "b5eecd6cf02d693d0f208d33342448428fd9eba409675982f377282744a0c0c1",
+      "olean_sha256": "08cfdc59c412afaea8cc0499a8a3873e0021bf321e8f4e50960b162055bfa3e1"
+    },
+    {
+      "source": "RefinedBMV/TraceHolderDyadic.lean",
+      "source_sha256": "e403c2658ec281768a6cf0a309b59ba2a7fb71a2576f6ef12442ac27a9dcda3b",
+      "olean_sha256": "4c377d1dfe2150bc154a99de68a98175c3a9cd6f8b24e0a75abbec3ebd914d52"
+    },
+    {
+      "source": "RefinedBMV/TraceMoment.lean",
+      "source_sha256": "3e96efb8f59e34478c132b97b73822ec509d6dbdaa02173fbea4291d1636d782",
+      "olean_sha256": "c43f369fac9612602608b01de723c99d563944675f6f8c7b70fc7b2c77e4340e"
+    },
+    {
+      "source": "RefinedBMV/TwoLetterBoundary.lean",
+      "source_sha256": "beedb6bcf69f2163997418192597f338ad24eca68c27c1d92b1323eee92ef717",
+      "olean_sha256": "dd96af98c6e57609f0ca822c0714f61549ce99106fb4f83dad8408c96b02fb45"
+    },
+    {
+      "source": "RefinedBMV/TwoLetterMatrix.lean",
+      "source_sha256": "eb393acccf3277a71362866f78c6d5dc344cf0bb6b76f43b25e8b5e667fc4b66",
+      "olean_sha256": "3956b06f8c663c7f8aabfad99e7ff96baaad8bec0a293215c7246f16e4d4fd29"
+    },
+    {
+      "source": "RefinedBMV/TwoLetterScalar.lean",
+      "source_sha256": "fbc27d705543a3a39ee7aefc6d4efe745b680dfcde488a93b83ac3debf3534c2",
+      "olean_sha256": "52d5b5d84560ce2c58beefe4f037bbc511df3b4ad1cabad2d02d4d482be99998"
+    },
+    {
+      "source": "RefinedBMV/TwoLetterWords.lean",
+      "source_sha256": "5c973cd6526f57e2a66f744986886221f0d6ad9135c19f1cf320cc815b4c21ec",
+      "olean_sha256": "2c0979ad7ada4b81bdd1b97849cb07bc2482e3e2fef050196a13bfcbe512febf"
+    },
+    {
+      "source": "RefinedBMV/Weighted54.lean",
+      "source_sha256": "6dd97a4a94bdf8651e828a5feeba38529aad364f1559817c769777d6a2517a7e",
+      "olean_sha256": "2bd0a03c38a6b8338b0b20475b794c00967353d778374caecf06166ce2b458e5"
+    },
+    {
+      "source": "RefinedBMV/WordAverage.lean",
+      "source_sha256": "e4374c8f118bc66a18758138168cb6ae5ff45febf4dab061e194fa9b72ecf8f8",
+      "olean_sha256": "f6cd5e7ee7aa9c6af3de4b93c883ff9649a2c904a71bb65d60e9adcb3c45f436"
+    },
+    {
+      "source": "RefinedBMV/WordCounting.lean",
+      "source_sha256": "98a8b0e8b4055b2f8da0684bb559f81be39ae43e552868f3b8086b94698e642e",
+      "olean_sha256": "4728af32e8b2911076e6f27887e74f68637ea408d67780775fe11a78c2f8e388"
+    },
+    {
+      "source": "RefinedBMV/WordStructure.lean",
+      "source_sha256": "806d277fbbb25ca51f21a9c8112de04c5a5a7ab1af6790410505a49a743274e1",
+      "olean_sha256": "ddd85c93581a069855b0c50d1a94e80641a057c263ec5c7071b1857d3ac4e81d"
+    },
+    {
+      "source": "RefinedBMV.lean",
+      "source_sha256": "caab526ae16f81c9c1fa9513296f82377cdb382566918135f86796ab0710844f",
+      "olean_sha256": "fb278f1395cb29715ddf0f18dc21d33b3c1579521c2579fbfe98284a93961742"
+    }
+  ]
+}
