@@ -1,0 +1,370 @@
+FILE: RefinedBMV/Core.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/Certificates.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/GramPositivity.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/LowDegree.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/WordAverage.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/MatrixSquares.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/Jordan44.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/FourthMoment.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/Weighted54.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/Equality54.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/SchurTriangulation.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/JordanSpectrum44.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/PaperMain.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/WordCounting.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/WordStructure.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/OneLetter.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/TwoLetterScalar.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/CubicScalar.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/Reality.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/Exchange.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/Commuting.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/TwoLetterMatrix.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/TwoLetterWords.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/TwoLetterBoundary.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/CubicHolomorphic.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/CubicCenter.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/TraceHolder.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/CubicStrip.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/EvenDisk.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/StripDiskMap.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/StripDiskPoint.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/CubicAnalytic.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/CubicMatrix.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/PolarTrace.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/CubicInterpolation.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/CubicALTPath.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/CubicALT.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/CubicQuantitative.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/TraceHolderDyadic.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/QuarticInterpolation.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/QuarticALTPath.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/Reversed45.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/Strong43.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/TraceMoment.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/MomentInterpolation.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/ALTWeightedHolder.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/ALTInterpolationPath.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/ALTFamilies.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/Reversed34.lean
+REUSED: source and olean match prior successful kernel check 2026-10-09T18:21:25.853087+00:00
+
+FILE: RefinedBMV/PowerStability.lean
+exit= 0 elapsed= 12.69
+
+
+FILE: RefinedBMV/SymmetricTrotter.lean
+exit= 0 elapsed= 12.7
+
+
+FILE: RefinedBMV/ExponentialBridge.lean
+exit= 0 elapsed= 12.41
+
+
+FILE: RefinedBMV/PaperResults.lean
+exit= 0 elapsed= 11.58
+
+
+FILE: RefinedBMV.lean
+exit= 0 elapsed= 10.94
+
+
+FILE: Audit.lean
+'RefinedBMV.mem_balancedWords' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.certificate33' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.certificate43' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.certificate44' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.certificate54' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.certificate44sos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.gram44Form_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.average_trace_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.identity33' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.identity43' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.identity44' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.identity54' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.p43_ge_W' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.p44_ge_jordan' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.p54_ge_U' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.fourth_moment_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.sandwich_fourth_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Matrix.schur_triangulation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.hermitian_diagonal_fourth_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.jordan_ge_product44' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paper_theorem_2_1_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paper_theorem_2_2_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paper_theorem_2_2_equality' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.normal_product_commutes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.balancedWords_length' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.balancedWords_nodup' depends on axioms: [propext, Quot.sound]
+'RefinedBMV.complete_average_trace_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.alternating54_trace_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.product44_trace_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.p_letter_exchange' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paper_proposition_3_2_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.two_letter_scalar_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubic_average_deficit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubic_joint_of_ratio_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.mobius_disk_left_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paper_commuting_equalities' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paperL_exchange' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.diagonal_trace_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.spectral_two_word_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.two_true_gap_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paperT_two_spectral' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.two_letter_word_ge_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paper_proposition_3_2_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubicStripTrace_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubicStripTrace_center_symmetry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.complexPower_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubicStripTrace_midpoint_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.complexPower_imaginary_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.complexPower_star' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.complexPower_norm_realpart' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubicStripTrace_bounded_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubicStripTrace_boundary_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.commutator_second_moment_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubic_center_deficit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubic_center_le_endpoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubic_center_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubic_center_trace_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.hsSquared_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.hsFourth_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.trace_cauchy_schwarz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.hermitian_trace_cauchy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.hsSquared_product_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.trace_holder_442' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.hsFourth_right_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.hsSquared_right_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubic_midpoint_eq_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubic_quarter_hsFourth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubic_half_hsSquared' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubicStripTrace_left_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubicStripTrace_sharp_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.even_disk_hasDerivAt_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.mobius_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.even_disk_mobius_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.even_disk_point_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.diskCayley_re_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.stripDiskInverse_differentiable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.stripDiskInverse_maps_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.stripDiskInverse_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubicDiskPoint_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.stripDiskInverse_cubic_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.stripDiskInverse_tan_right_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubicStripTrace_point_ratio_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubicStripTrace_joint_estimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.complexPower_nat_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubicStripTrace_cubic_specialization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubic_matrix_joint_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.sqrt_tendsto_of_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubic_matrix_joint_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubic_average_ge_joint_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.sqrt_cubic_eq_rpow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paper_cubic_joint_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paper_cubic_quantitative_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.product_nat_trace_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.product_nat_trace_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.invertible_polar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.hsFourth_left_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.positive_unitary_trace_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.complexPower_unitary_of_re_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubicALTPath_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubicALTPath_left_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.hsFourth_three_halves' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.hsSquared_cube' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubicALTPath_right_fourth_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubic_interpolation_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubicALTPath_polar_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubicALTPath_bounded_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.hsFourth_hermitian_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubic_alt_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubic_alt_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paperT33' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paper_proposition_7_1_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.normalized_midpoint_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubic_margin_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cubic_margin_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paper_proposition_7_1_quantitative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.hsFourth_product_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.hsEighth_right_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.hsEighth_left_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.trace_holder_8842' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.quartic_interpolation_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.quarticALTPath_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.quarticALTPath_left_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.quarticALTPath_right_eighth_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.quarticALTPath_polar_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.quarticALTPath_bounded_strip' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.quartic_alt_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.complexPower_real_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.positivePower_tendsto_of_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.reversed45_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.reversed45_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paper_strong_4_5_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.third_moment_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.sandwich_third_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.weighted_third_sandwich_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.positivePower_one_third_cube' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.weighted_third_ge_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paper_proposition_4_1_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.traceMoment_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.complexPower_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.traceMoment_complexPower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.traceMoment_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.hsSquared_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.hsFourth_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.hsEighth_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.traceMoment_star' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.traceMoment_right_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.traceMoment_left_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.traceMoment_polar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.moment_interpolation_scalar' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.dual_moment_interpolation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.complexPower_isUnit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.hsSquared_left_unitary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.altDualPath_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.altDualPath_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.altDualPath_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.altDualPath_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.alt_weighted_holder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.altTracePath_entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.altTracePath_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.altTracePath_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.altTracePath_polar_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.altTracePath_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.traceMoment_hermitian_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.alt_natural_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.alt_natural_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.alt_integer_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paperT34_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.reversed34_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.reversed34_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paper_strong_3_4_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.alt_rational_sandwich_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.alt_integer_sandwich_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.positivePower_root_nat' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.reTrace_sandwich_of_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.alt_trotter_approximants_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.norm_pow_sub_le_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.one_add_div_pow_le_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.first_order_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.reciprocal_power_stability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.trotterStep_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.trotterStep_hasDerivAt_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.reciprocal_exp_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.symmetric_trotter_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.symmetric_trotter_tendsto_multiple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.complexPower_real_log' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.positivePower_eq_real_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cfcTrotterStep_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.cfc_trotter_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.exponential_bridge_sandwich' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paper_lemma_3_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paperL_matrix_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paperL_trace_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paperL_trace_eq_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paperL_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paper_corollary_2_3_finite_psd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paper_boundary_exponential_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paper_corollary_2_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paper_exponential_equality54' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paper_theorem_2_1_exponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RefinedBMV.paper_theorem_2_2_exponential' depends on axioms: [propext, Classical.choice, Quot.sound]
+exit= 0 elapsed= 12.16
+

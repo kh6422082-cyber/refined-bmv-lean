@@ -1,0 +1,28 @@
+{
+  "client_date": "2026-10-10",
+  "status": "noncommuting_exponential_bridge_and_required_main_results_complete",
+  "required_main_results_complete": true,
+  "paper_coverage_complete": false,
+  "paper_coverage_interpretation": "Strict statement-by-statement manuscript coverage, including the full real-parameter background ALT and the unused intermediates of replaced proofs, is not claimed. All required main conclusions and their dependencies are proved.",
+  "proved_scope": [
+    "Symmetric Lie-Trotter operator-norm convergence for arbitrary complex matrices F,G in every positive finite dimension, with no commutativity assumption; the m*k power limit holds for every natural m.",
+    "The actual fractional CFC-power Trotter product in (3.2) converges to exp(m*(log D+log B)) for positive definite D,B.",
+    "Lemma 3.1 (CLBRIDGE): paperL(n,m,A,B)<=paperT(n,m,A,B) for every pair of positive integers n,m and positive definite A,B.",
+    "The complete region of Corollary 2.3, including all positive boundary degrees with min(n,m)<=2 and all six specified finite pairs.",
+    "The complete six-pair PSD strong clause of Corollary 2.3, including singular inputs.",
+    "The full p54>=U54>=T54>=L54 chain and p54=L54 iff A*B=B*A for positive definite inputs.",
+    "The actual exponential trace is real and nonnegative, so reTrace comparisons match the manuscript trace statements."
+  ],
+  "proof_method": "First-order derivatives at the identity, local linear norm bounds, noncommuting power-difference norm estimates, and the proved ALT families. No matrix-logarithm series convergence assumption is used.",
+  "source_files": 55,
+  "fresh_kernel_checks": 6,
+  "reused_matching_verified_artifacts": 49,
+  "axiom_audits": 200,
+  "axiom_dependencies_allowed": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "remaining_required_proofs": [],
+  "build_report_started_utc": "2026-10-09T18:40:53.044104+00:00"
+}

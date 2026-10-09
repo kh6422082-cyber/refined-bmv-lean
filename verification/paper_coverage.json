@@ -1,0 +1,90 @@
+{
+  "paper_sha256": "c5b58c399fcc2bfe2044157d1e81273f62e24544fb2c6ba27abbbf8fded63dee",
+  "paper_coverage_complete": false,
+  "unconditionally_proved": [
+    "1.1: full position words, binomial cardinality, no duplicates, real average",
+    "2.2: complete PSD Jordan/product/sandwich chain (Theorem 2.1 strong part)",
+    "2.3: complete PSD-A/Hermitian-B weighted/sandwich/nonnegative chain",
+    "2.2 equality subclaim: P54=U54 iff AB=BA for positive definite A",
+    "2.5: P=T=L=Tr(A^nB^m) for commuting positive definite inputs and positive degrees",
+    "2.6: exchange symmetry for P and L",
+    "3.2: one-letter equality P_n1=T_n1",
+    "Proposition 3.2: full two-B boundary P_n2>=T_n2 for arbitrary positive n, PSD A and Hermitian B, including singular A",
+    "3.6: scalar monomial-average AM-GM, including zeros",
+    "6.3: sandwich fourth-moment comparison",
+    "7.3-7.4: complete complex trace is entire, center symmetric and agrees with real CFC powers for positive definite inputs",
+    "7.3: imaginary powers are unitary and the complex trace is bounded on every finite-width strip",
+    "7.5: exact commutator-square center deficit and midpoint<=endpoint for PSD inputs",
+    "7.6: exact ordered full-complex-trace boundary factorization",
+    "7.5 following paragraph: sqrt-form midpoint trace is real and is strictly positive for positive definite inputs in positive dimension",
+    "7.7: complete-complex-trace 4/4/2 Holder estimate, exact unitary invariance and sharp sqrt(D*C) boundary bound",
+    "7.8: sharp sqrt(D*C) modulus on the whole closed strip via the proved three-lines theorem",
+    "7.9-7.10: even holomorphic disk point lower bound, including a=1, using second-order Schwarz",
+    "7.11: globally holomorphic principal-log inverse on the unit disk, strip range, odd center offset and the exact 1/sqrt(3)->2/3 point",
+    "7.11: tangent right-inverse identity throughout the unit disk",
+    "7.12: positive definite matrix one-point ratio estimate with actual normalized midpoint parameter",
+    "7.13: matrix specialization and genuine CFC-continuity extension give D+2W>=3C for all PSD A,B in positive dimension",
+    "7.13 quantitative matrix margin: positive definite inputs have C=D*a^2 and D+2W-3C>=3D*(1-a)^2*(1+a)/(3-a), with the actual CFC 3/2 moments",
+    "7.14: independent proof of the cubic r=3/2,q=2 ALT comparison C>=S for PSD inputs, including singular matrices",
+    "7.1 / Proposition 7.1: full PSD strong chain D+2W>=3C>=3S and p33>=S=T33",
+    "7.2: full quantitative PSD statement for D>0 with the actual x=sqrt(C/D), including singular inputs",
+    "4.1 / Proposition 4.1: complete PSD strong chain p43>=W43>=T43, including singular inputs; the r=3,q=1 ALT comparison follows from the proved cubic chain",
+    "3.4: oriented comparison T45(A,B)<=T54(B,A) for PSD inputs, including singular matrices, from an independent r=5/4,q=4 interpolation proof",
+    "Strong (4,5): p45>=T45 using the proved oriented comparison, letter exchange and strong 54 chain",
+    "7.15 intermediate assembly: complete cubic average p33 >= (9C+S)/10, now combined with the independently proved C>=S arrow to obtain the final strong bound",
+    "All integer alternating moments: Tr(AB)^k is real for PSD A and Hermitian B, and nonnegative for PSD A,B; in particular the cubic S is real and nonnegative",
+    "7.10: real-coordinate Mobius disk lower bound",
+    "7.13: exact scalar margin and scalar return inequality",
+    "7.15: complete cubic word-average identities",
+    "Appendices A/B: exact finite Gram/four-square certificates and positive square interpretations",
+    "3.1, all used parameters: independent PSD ALT sandwich proof for every positive integer q and n>=q at r=n/q, including singular inputs",
+    "3.1, bridge family: the integer-r=k ALT comparison for arbitrary positive integers k,q; no finite parameter cutoff",
+    "3.2: every actual finite-step Trotter approximant comparison for positive k,m, including singular PSD inputs",
+    "3.3: oriented comparison T34(A,B)<=T43(B,A), including singular PSD inputs",
+    "Strong (3,4): p34>=T34 by the proved oriented comparison, letter exchange and strong 43 chain",
+    "Lemma 3.1 limit: symmetric Lie-Trotter operator-norm convergence for arbitrary complex matrices, with m*k powers and no commutativity assumption",
+    "Lemma 3.1 actual CFC product: the (3.2) approximants converge to exp(m*(log D+log B)) for positive definite inputs",
+    "Lemma 3.1 / CLBRIDGE: L_nm<=T_nm for all positive integers n,m and arbitrary positive definite A,B",
+    "Exponential trace interpretation: the exponent is self-adjoint, its matrix exponential is positive definite, and the complete complex trace is real and nonnegative",
+    "Corollary 2.3 / CLOW: the complete positive-input exponential bound on min(n,m)<=2 together with all six specified finite pairs",
+    "Corollary 2.3: the full six-pair PSD strong clause, including singular inputs",
+    "Theorem 2.1 positive-input exponential consequence p44>=L44",
+    "Theorem 2.2 / (6.7): complete p54>=U54>=T54>=L54 chain and p54=L54 iff AB=BA for positive definite inputs"
+  ],
+  "remaining_required_proofs": [],
+  "replacement_proofs": [
+    {
+      "location": "Proposition 3.2 / 3.5-3.6",
+      "method": "Each individual two-B word is bounded below by the same spectral target, using symmetric weights and paired AM-GM; complete counting and normalization then give the average inequality.",
+      "not_individually_formalized": "The uniform gap-average identity (3.5); it is not a dependency of the proved proposition."
+    },
+    {
+      "location": "7.9",
+      "method": "Evenness gives derivative zero at the disk center; the Mobius transform has the same symmetry. The proved second-order Schwarz lemma gives the norm-squared point bound directly.",
+      "not_individually_formalized": "The auxiliary quotient H(w^2); it is not needed by this replacement proof."
+    },
+    {
+      "location": "Lemma 3.1 / Lie-Trotter limit",
+      "method": "Matching first derivatives at the identity make the one-step difference o(t). Local norm bounds 1+C*|t| and a noncommuting power-difference estimate give a vanishing k-step error. The comparison exponential has an exactly known k-th power.",
+      "not_individually_formalized": "The original O(k^-2) matrix-log series expansion and agreement of that series with the spectral log; they are not dependencies of the proved bridge."
+    }
+  ],
+  "formalized_alt_scope": {
+    "complete_for_paper_applications": true,
+    "proved_parameter_ranges": "q is any positive integer; r=n/q for any natural n>=q. In particular r=k for arbitrary positive integers k,q, and all low-degree instances used in Sections 3,4,7.",
+    "full_background_real_parameter_range_complete": false,
+    "unformalized_background_statement": "The full background inequality (3.1) quantified over arbitrary real r>=1 and real q>0 is not separately formalized and is not assumed by the completed application proofs.",
+    "verification": "alt_completion.json"
+  },
+  "required_main_results_complete": true,
+  "coverage_interpretation": "Strict statement-by-statement manuscript coverage, including the full real-parameter background ALT and the unused intermediates of replaced proofs, is not claimed. All required main conclusions and their dependencies are proved.",
+  "background_statements_not_fully_formalized": [
+    {
+      "location": "3.1",
+      "statement": "Full ALT with arbitrary real r>=1 and real q>0",
+      "required_by_completed_main_proofs": false,
+      "reason": "All instances used by the manuscript, including every integer-r and integer-q bridge family, are proved directly."
+    }
+  ],
+  "verification": "exponential_completion.json"
+}
